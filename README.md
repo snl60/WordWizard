@@ -5,7 +5,7 @@ spelling bee application developed in C# as part of the CS314 course
 project.
 
 
-
+<br>
 
 **📝 Project Overview**
 
@@ -15,7 +15,7 @@ The application utilizes Text-to-Speech (TTS) to read words aloud, and
 players must correctly spell them to progress.
 
 
-
+<br>
 
 **💡 Features**
 
@@ -32,7 +32,7 @@ players must correctly spell them to progress.
 ✅ Structured OOP design with modular, reusable components.
 
 
-
+<br>
 
 **🛠️ Technologies Used**
 
@@ -47,7 +47,7 @@ GitHub -- Version control and collaboration
 JSON or CSV -- Word bank storage
 
 
-
+<br>
 
 **👥 Team Members (Sharp Minds)**
 

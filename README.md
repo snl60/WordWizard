@@ -1,4 +1,4 @@
-**📌 Word Wizard -- A CS314 Team Project**
+***📌 Word Wizard -- A CS314 Team Project***
 
 This repository contains the source code for Word Wizard, a WPF-based
 spelling bee application developed in C# as part of the CS314 course

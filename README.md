@@ -4,12 +4,14 @@ This repository contains the source code for Word Wizard, a WPF-based
 spelling bee application developed in C# as part of the CS314 course
 project.
 
+
 **📝 Project Overview**
 
 Word Wizard is an interactive spelling game designed to help users
 improve their spelling skills through a structured, engaging experience.
 The application utilizes Text-to-Speech (TTS) to read words aloud, and
 players must correctly spell them to progress.
+
 
 **💡 Features**
 
@@ -25,6 +27,7 @@ players must correctly spell them to progress.
 
 ✅ Structured OOP design with modular, reusable components.
 
+
 **🛠️ Technologies Used**
 
 C# -- Core programming language
@@ -36,6 +39,7 @@ Microsoft Speech API -- TTS functionality
 GitHub -- Version control and collaboration
 
 JSON or CSV -- Word bank storage
+
 
 **👥 Team Members (Sharp Minds)**
 

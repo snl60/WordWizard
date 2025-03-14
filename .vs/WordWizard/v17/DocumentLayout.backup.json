@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\!My Documents\\!USV\\!Trimesters\\T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\",
+  "WorkspaceRootPath": "D:\\_My Documents\\!USV\\!Trimesters\\!T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF4D53D5-D814-483D-994B-9D4B3183C621}|WordWizard.csproj|d:\\!my documents\\!usv\\!trimesters\\t6 spring 2025\\cs314\\teamproject\\repositories\\cs314_sharpminds_wordwizard\\wordwizard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AF4D53D5-D814-483D-994B-9D4B3183C621}|WordWizard.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CBD012CE-EEA2-4800-BD14-EDEC860884C8}|WordWizard.csproj|d:\\_my documents\\!usv\\!trimesters\\!t6 spring 2025\\cs314\\teamproject\\repositories\\cs314_sharpminds_wordwizard\\wordwizard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CBD012CE-EEA2-4800-BD14-EDEC860884C8}|WordWizard.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF4D53D5-D814-483D-994B-9D4B3183C621}|WordWizard.csproj|D:\\!My Documents\\!USV\\!Trimesters\\T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF4D53D5-D814-483D-994B-9D4B3183C621}|WordWizard.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBD012CE-EEA2-4800-BD14-EDEC860884C8}|WordWizard.csproj|d:\\_my documents\\!usv\\!trimesters\\!t6 spring 2025\\cs314\\teamproject\\repositories\\cs314_sharpminds_wordwizard\\wordwizard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBD012CE-EEA2-4800-BD14-EDEC860884C8}|WordWizard.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,25 +24,25 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\!My Documents\\!USV\\!Trimesters\\T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\_My Documents\\!USV\\!Trimesters\\!T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\!My Documents\\!USV\\!Trimesters\\T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\MainWindow.xaml",
+              "ToolTip": "D:\\_My Documents\\!USV\\!Trimesters\\!T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T03:13:25.938Z",
+              "WhenOpened": "2025-03-14T19:25:16.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\!My Documents\\!USV\\!Trimesters\\T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\_My Documents\\!USV\\!Trimesters\\!T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\!My Documents\\!USV\\!Trimesters\\T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\_My Documents\\!USV\\!Trimesters\\!T6 Spring 2025\\CS314\\TeamProject\\Repositories\\CS314_SharpMinds_WordWizard\\WordWizard\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T03:13:23.682Z",
+              "WhenOpened": "2025-03-14T19:25:15.269Z",
               "EditorCaption": ""
             }
           ]

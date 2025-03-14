@@ -398,3 +398,24 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Build-related artifacts folders
+obj/
+bin/
+
+# Logs folder
+logs/
+
+# Windows-generated files
+Thumbs.db
+*.tmp
+
+# Test artifacts
+TestResults/
+
+# WPF temporary files
+*.g.i.cs
+*.g.cs
+*.lref
+*.iobj
+*.ipdb

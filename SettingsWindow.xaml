@@ -1,0 +1,51 @@
+<Window x:Class="WordWizard.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings" Height="300" Width="400" Background="#FFFEEB78">
+
+    <Grid>
+        <TextBlock Text="Settings" FontSize="24" FontWeight="Bold" 
+                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0"/>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="250">
+
+            <TextBlock Text="Difficulty" FontSize="14" FontWeight="SemiBold" Margin="0,5,0,0"/>
+            <ComboBox x:Name="Choose_your_difficulty">
+                <ComboBoxItem Content="Easy"/>
+                <ComboBoxItem Content="Medium"/>
+                <ComboBoxItem Content="Hard"/>
+            </ComboBox>
+
+
+            <TextBlock Text="Music Volume" FontSize="14" FontWeight="SemiBold" Margin="0,10,0,0"/>
+            <Slider Name="sldMusicVolume" Minimum="0" Maximum="100" Height="25"/>
+
+            <TextBlock Text="SFX Volume" FontSize="14" FontWeight="SemiBold" Margin="0,10,0,0"/>
+            <Slider Name="sldSFXVolume" Minimum="0" Maximum="100" Height="25"/>
+
+
+            <Button x:Name="Save_box" Content="Save Settings" Height="35" Background="Green" Foreground="White" 
+                    FontWeight="Bold" Margin="0,20,0,0"/>
+        </StackPanel>
+        <Image x:Name="bee_left" HorizontalAlignment="Left" Height="149" Margin="-23,97,0,0" VerticalAlignment="Top" Width="151" Source="/bee.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-45.753"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="bee_right" HorizontalAlignment="Left" Height="149" Margin="272,104,0,0" VerticalAlignment="Top" Width="151" Source="/bee.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="45.753"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Window>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\_My Documents\!USV\!Trimesters\!T6 Spring 2025\CS314\TeamProject\Repositories\CS314_SharpMinds_WordWizard\WordWizard\obj\Debug\
+C:\Users\princ\WordWizard\obj\Debug\
 WordWizard
 none
 false
 DEBUG;TRACE
-D:\_My Documents\!USV\!Trimesters\!T6 Spring 2025\CS314\TeamProject\Repositories\CS314_SharpMinds_WordWizard\WordWizard\App.xaml
-1219584333
+C:\Users\princ\WordWizard\App.xaml
+21397482308
 
 6-502434485
 13-1310406943
-MainWindow.xaml;
+MainWindow.xaml;SettingsWindow.xaml;
 
-True
+False
 

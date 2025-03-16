@@ -7,6 +7,44 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="Main_Menu" Background="#FFFFE87B">
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="111*"/>
+            <RowDefinition Height="106*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Start" Content="Start Game" HorizontalAlignment="Center" Height="51" Margin="0,166,0,0" VerticalAlignment="Top" Width="192" Background="#FF59F96A" FontSize="18" FontWeight="Bold"/>
+        <Button x:Name="Settings" Content="Settings" HorizontalAlignment="Center" Height="51" Margin="0,25,0,0" VerticalAlignment="Top" Width="192" Background="#FF59F96A" FontSize="18" FontWeight="Bold" Grid.Row="1"/>
+        <Label x:Name="Game_name" Content="     Spelling Bee Game" HorizontalAlignment="Center" Height="56" VerticalAlignment="Center" Width="278" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontSize="24">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Image x:Name="bee_top_left" HorizontalAlignment="Left" Height="265" Margin="0,21,0,0" VerticalAlignment="Top" Width="325" Source="/bee.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <Image x:Name="bee_top_right" HorizontalAlignment="Left" Height="265" Margin="475,21,0,0" VerticalAlignment="Top" Width="325" Source="/bee.png" Stretch="Fill" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="bee_bottom_left" HorizontalAlignment="Left" Height="265" Margin="0,51,0,0" VerticalAlignment="Top" Width="325" Source="/bee.png" Stretch="Fill" Grid.Row="1"/>
+        <Image x:Name="bee_bottom_right" HorizontalAlignment="Left" Height="265" Margin="475,51,0,0" VerticalAlignment="Top" Width="325" Source="/bee.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.Row="1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
     </Grid>
 </Window>

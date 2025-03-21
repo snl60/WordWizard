@@ -31,6 +31,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -418,4 +420,18 @@ TestResults/
 *.g.cs
 *.lref
 *.iobj
-*.ipdb
+*.ipdb.vs/
+
+# Rider (JetBrains) IDE --> just in case
+.idea/
+*.sln.iml
+
+# Backup & Cache
+.bak
+
+# Local config
+appsettings.Development.json
+secrets.json
+
+# Crash dumps
+*.dmp

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ScoringData;
 
 namespace WordWizard
 {
@@ -20,9 +21,13 @@ namespace WordWizard
     /// </summary>
     public partial class MainWindow : Window
     {
+        Scoring ScoreInstance;
         public MainWindow()
         {
             InitializeComponent();
+            ScoreInstance = new Scoring();
+
+            this.DataContext = ScoreInstance;
         }
     }
 }

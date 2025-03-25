@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Border x:Name="loseBackground" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="188" Margin="0,104,0,0" VerticalAlignment="Top" Width="400" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False">
-            <TextBox x:Name="loseText" HorizontalAlignment="Left" Height="30" Margin="128,22,0,0" TextWrapping="Wrap" Text="[You're Out of Lives!]" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" IsReadOnlyCaretVisible="True" BorderThickness="1,0,1,0" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False">
+            <TextBox x:Name="loseText" HorizontalAlignment="Center" Height="30" Margin="0,9,0,0" TextWrapping="Wrap" Text="[You're Out of Lives!]" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" IsReadOnlyCaretVisible="True" BorderThickness="1,0,1,0" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False">
                 <TextBox.ContextMenu>
                     <ContextMenu/>
                 </TextBox.ContextMenu>
@@ -35,7 +35,7 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <TextBox x:Name="loseTotalPointsAmount" HorizontalAlignment="Left" Height="20" Margin="329,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" IsReadOnlyCaretVisible="True" BorderThickness="3,3,3,3" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False">
+        <TextBox x:Name="loseTotalPointsAmount" Text ="{Binding Path=TotalPoints, Mode=OneWay}" HorizontalAlignment="Left" Height="20" Margin="329,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" IsReadOnlyCaretVisible="True" BorderThickness="3,3,3,3" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False" IsReadOnly="True">
             <TextBox.ContextMenu>
                 <ContextMenu/>
             </TextBox.ContextMenu>
@@ -51,6 +51,19 @@
         <Button x:Name="retryButton" Content="Retry" HorizontalAlignment="Left" Height="23" Margin="286,225,0,0" VerticalAlignment="Top" Width="56" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False"/>
         <Button x:Name="menuButton" Content="Main Menu" HorizontalAlignment="Center" Height="23" Margin="0,225,0,0" VerticalAlignment="Top" Width="70" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False"/>
         <Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Left" Height="23" Margin="459,225,0,0" VerticalAlignment="Top" Width="56" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False"/>
+        <TextBox x:Name="totalLives" Text ="{Binding Path=Lives, Mode=OneWay}" HorizontalAlignment="Left" Height="20" Margin="329,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.5,0.5" TextAlignment="Center" IsReadOnlyCaretVisible="True" BorderThickness="3,3,3,3" AutomationProperties.IsOffscreenBehavior="Offscreen" IsEnabled="False" IsReadOnly="True">
+            <TextBox.ContextMenu>
+                <ContextMenu/>
+            </TextBox.ContextMenu>
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0" AngleY="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
 
     </Grid>
 </Window>

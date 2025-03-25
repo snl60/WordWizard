@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WordWizard;
 
 //Andre--
 //Focus on lines marked with @@ at the end for skimming to main points.-Andre
@@ -121,25 +120,31 @@ Basically the same except the textbox saying,
 "You're out of lives!" instead says, "You won!"
 
  */
-namespace ScoringNamespace
+namespace ScoringData
 {
 
     internal class Scoring
     {
         //Fields
-        static private int lives = 3;
+        private int? lives = null;
+         
+        private int? correctWords = null;
 
-        static private int correctWords = 0;
+        private int? pointMultiplier = null;
 
-        static private int pointMultiplier = 30;
+        private int? bonusPointMultiplier = null;
 
-        static private int bonusPointMultiplier = 10;
+        private double totalPoints;
 
-        static private double bonusPoints = lives * bonusPointMultiplier;
+        private double bonusPoints;
 
-        static private double wordPoints = correctWords * pointMultiplier;
+        private double wordPoints;
 
-        static private double totalPoints = bonusPoints + wordPoints;
+        //static private double bonusPoints = lives * bonusPointMultiplier;
+
+        // static private double wordPoints = correctWords * pointMultiplier;
+
+        //static private double totalPoints = bonusPoints + wordPoints;
 
         /*Made static for convenince, if we don't go with staic, I'll probably make additional functions and remove the following attributes:
           'private int double wordPoints;
@@ -154,10 +159,140 @@ namespace ScoringNamespace
         //Fields
 
 
-        //Functions
-        private void EndScreenWin() { }
 
-        private void EndScreenLose() { }
+
+
+
+        //Cosntructors
+
+        public Scoring() 
+        {
+            this.lives = 3;
+            this.correctWords = 0;
+            this.pointMultiplier = 30;
+            this.bonusPointMultiplier = 10;
+            this.totalPoints = 0;
+            this.bonusPoints = 0;
+            this.totalPoints = 0;
+        }
+
+        //Constructors
+
+
+        //Functions
+
+
+        public int Lives 
+        {
+            get 
+            { 
+                return (int)lives; 
+            }
+            set 
+            { 
+                lives = value; 
+            }
+        }
+
+        public int CorrectWords //How would I connect this variable to the main runtime of the game as a counter?
+        {//This should increment by +1 in main program if spelling validation logic is completely correct for a word. Otherwise, if it's not correct, it will not increment.
+            get 
+            {
+                return (int)correctWords;
+            }
+            set 
+            {
+                correctWords = value;
+            }
+        }
+
+        public int PointMultiplier 
+        {
+            get 
+            {
+                return (int)pointMultiplier;
+            }
+            set 
+            {
+                pointMultiplier = value;
+            }
+        }
+
+        public int BonusPointMultiplier 
+        {
+            get 
+            {
+                return (int)bonusPointMultiplier;
+            }
+
+            set 
+            {
+                bonusPointMultiplier = value;
+            }
+        }
+
+        public double TotalPoints 
+        {
+            get 
+            {
+                calculateTotalPoints();
+                return totalPoints;
+            }
+        }
+
+        public double BonusPoints 
+        {
+            get 
+            {
+                calculateBonusPoints();
+                return bonusPoints;
+            }
+        }
+
+        public double WordPoints 
+        {
+            get 
+            {
+                calculateWordPoints();
+                return wordPoints;
+            }
+        }
+
+
+
+
+        public double calculateWordPoints() 
+        {
+            wordPoints = (double)this.correctWords * (double)this.pointMultiplier;
+            return wordPoints;
+        }
+
+        public double calculateBonusPoints() 
+        {
+            bonusPoints = (double)this.lives * (double)this.bonusPointMultiplier;
+            return bonusPoints;
+        }
+
+        public double calculateTotalPoints() 
+        {
+            totalPoints = wordPoints + bonusPoints;
+            return totalPoints;
+        }
+
+        public void EndScreenWin() 
+        {
+            /*double wordPoints = (double)this.correctWords * (double)this.pointMultiplier;
+            double bonusPoints = (double)this.lives * (double)this.bonusPointMultiplier;
+            double totalPoints = wordPoints + bonusPoints;*/
+
+        }
+
+        public void EndScreenLose() 
+        {
+            /*double wordPoints = (double)this.correctWords * (double)this.pointMultiplier;
+            double bonusPoints = (double)this.lives * (double)this.bonusPointMultiplier;
+            double totalPoints = wordPoints + bonusPoints;*/
+        }
 
         /*
         So, on the context of class type, I'm just using internal

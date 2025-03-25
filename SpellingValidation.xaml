@@ -1,0 +1,11 @@
+<Window x:Class="SpellingBeeGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Spelling Bee Game" Height="350" Width="525">
+    <Grid>
+        <Label Name="WordLabel" Content="Word will appear here" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+        <TextBox Name="UserInputTextBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="30"/>
+        <Button Content="Check Spelling" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30" Width="150" Click="CheckSpellingButton_Click"/>
+        <Label Name="ResultLabel" Content="Result will appear here" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,60"/>
+    </Grid>
+</Window>

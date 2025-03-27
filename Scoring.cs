@@ -194,7 +194,7 @@ namespace ScoringData
             }
         }
 
-        public int CorrectWords //How would I connect this variable to the main runtime of the game as a counter?
+        /*public int CorrectWords //How would I connect this variable to the main runtime of the game as a counter?
         {//This should increment by +1 in main program if spelling validation logic is completely correct for a word. Otherwise, if it's not correct, it will not increment.
             get 
             {
@@ -204,9 +204,9 @@ namespace ScoringData
             {
                 correctWords = value;
             }
-        }
+        }*/
 
-        public int PointMultiplier 
+        /*public int PointMultiplier 
         {
             get 
             {
@@ -216,9 +216,9 @@ namespace ScoringData
             {
                 pointMultiplier = value;
             }
-        }
+        }*/
 
-        public int BonusPointMultiplier 
+        /*public int BonusPointMultiplier 
         {
             get 
             {
@@ -229,47 +229,49 @@ namespace ScoringData
             {
                 bonusPointMultiplier = value;
             }
-        }
+        }*/
 
         public double TotalPoints 
         {
             get 
             {
+                calculateWordPoints();
+                calculateBonusPoints();
                 calculateTotalPoints();
                 return totalPoints;
             }
         }
 
-        public double BonusPoints 
+       /* public double BonusPoints 
         {
             get 
             {
                 calculateBonusPoints();
                 return bonusPoints;
             }
-        }
+        }*/
 
-        public double WordPoints 
+        /*public double WordPoints 
         {
             get 
             {
                 calculateWordPoints();
                 return wordPoints;
             }
-        }
+        }*/
 
 
 
 
         public double calculateWordPoints() 
         {
-            wordPoints = (double)this.correctWords * (double)this.pointMultiplier;
+            wordPoints = (double)correctWords * (double)pointMultiplier;
             return wordPoints;
         }
 
         public double calculateBonusPoints() 
         {
-            bonusPoints = (double)this.lives * (double)this.bonusPointMultiplier;
+            bonusPoints = (double)lives * (double)bonusPointMultiplier;
             return bonusPoints;
         }
 

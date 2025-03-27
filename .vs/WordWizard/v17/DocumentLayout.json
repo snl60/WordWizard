@@ -22,15 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Bookmark",
@@ -56,7 +52,7 @@
               "RelativeDocumentMoniker": "Scoring.cs",
               "ToolTip": "C:\\MinGW\\bin\\Programs\\Projects\\GitHub\\WordWizard\\Scoring.cs",
               "RelativeToolTip": "Scoring.cs",
-              "ViewState": "AgIAAOwAAAAAAAAAAAAhwBUBAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAArwK0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T09:25:44.646Z",
               "EditorCaption": ""
@@ -69,7 +65,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\MinGW\\bin\\Programs\\Projects\\GitHub\\WordWizard\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAtwB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAtwB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T19:25:15.269Z",
               "EditorCaption": ""
